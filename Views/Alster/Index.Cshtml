@@ -1,0 +1,26 @@
+@model IEnumerable<Alster>
+@{
+    ViewData["Title"] = "Tarkovasda Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Alster</h1>
+
+    @if (Model == null || !Model.Any())
+    {
+        <p>Inga alster att visa.</p>
+    }
+    else
+    {
+        <ol>
+            @foreach (var item in Model)
+            {
+                <li>
+                    <div>@item.Name</div>
+                    <div>@item.description</div>
+                    <div>@item.Image</div>
+                </li>
+            }
+        </ol>
+    }
+</div>
