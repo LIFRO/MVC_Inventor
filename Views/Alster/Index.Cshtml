@@ -2,6 +2,14 @@
 @{
     ViewData["Title"] = "Tarkovasda Page";
 }
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="" asp-action="Index">Tillbacks</a>
+            </div>
+        </nav>
+    </header>
 
 <div class="text-center">
     <h1 class="display-4">Alster</h1>
@@ -12,15 +20,17 @@
     }
     else
     {
-        <ol>
+        <div>
             @foreach (var item in Model)
             {
-                <li>
+                <div>
                     <div>@item.Name</div>
                     <div>@item.description</div>
-                    <div>@item.Image</div>
-                </li>
+                    <div><img src="@Url.Content("~/" + item.Image)" alt="image of item.name" class="Alster_Size_Img"></div>
+                </div>
             }
-        </ol>
+        </div>
+
     }
 </div>
+</body>

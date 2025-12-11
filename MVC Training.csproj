@@ -5,6 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>MVC_Training</RootNamespace>
+    <DefaultItemExcludes>$(DefaultItemExcludes);MVC_Inventor\**</DefaultItemExcludes>
   </PropertyGroup>
 
   <ItemGroup>
