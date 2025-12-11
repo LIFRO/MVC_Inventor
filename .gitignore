@@ -1,11 +1,8 @@
-# Build outputs
 bin/
 obj/
 
-# VS/IDE user files
 *.user
 *.suo
 .vs/
 
-# Other common noise
 *.vscode/
