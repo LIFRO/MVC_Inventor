@@ -20,13 +20,13 @@
     }
     else
     {
-        <div>
+        <div class="alster-grid">
             @foreach (var item in Model)
             {
-                <div>
+                <div class="centered_image">
                     <div>@item.Name</div>
                     <div>@item.description</div>
-                    <div><img src="@Url.Content("~/" + item.Image)" alt="image of item.name" class="Alster_Size_Img"></div>
+                    <div><img src="@Url.Content("~/" + item.Image)" alt="@item.Name" class="Alster_Size_Img"></div>
                 </div>
             }
         </div>
