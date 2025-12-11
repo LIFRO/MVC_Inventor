@@ -9,45 +9,77 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MVC_Training
 build_property.RootNamespace = MVC_Training
-build_property.ProjectDir = C:\Users\linuz\Documents\Skola yrkeshögskola\C#\Databas Utvekling\MVC Training\
+build_property.ProjectDir = C:\Users\linuz\Documents\YhgPrivat\Inventor 1.0 uppgift\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\linuz\Documents\Skola yrkeshögskola\C#\Databas Utvekling\MVC Training
+build_property.MSBuildProjectDirectory = C:\Users\linuz\Documents\YhgPrivat\Inventor 1.0 uppgift
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/linuz/Documents/Skola yrkeshögskola/C\#/Databas Utvekling/MVC Training/Views/Alster/Index.Cshtml]
+[C:/Users/linuz/Documents/YhgPrivat/Inventor 1.0 uppgift/MVC_Inventor/Views/Alster/Index.Cshtml]
+build_metadata.AdditionalFiles.TargetPath = TVZDX0ludmVudG9yXFZpZXdzXEFsc3RlclxJbmRleC5Dc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/linuz/Documents/YhgPrivat/Inventor 1.0 uppgift/MVC_Inventor/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TVZDX0ludmVudG9yXFZpZXdzXEhvbWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/linuz/Documents/YhgPrivat/Inventor 1.0 uppgift/MVC_Inventor/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TVZDX0ludmVudG9yXFZpZXdzXEhvbWVcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/linuz/Documents/YhgPrivat/Inventor 1.0 uppgift/MVC_Inventor/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TVZDX0ludmVudG9yXFZpZXdzXFNoYXJlZFxFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/linuz/Documents/YhgPrivat/Inventor 1.0 uppgift/MVC_Inventor/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TVZDX0ludmVudG9yXFZpZXdzXFNoYXJlZFxfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/linuz/Documents/YhgPrivat/Inventor 1.0 uppgift/MVC_Inventor/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TVZDX0ludmVudG9yXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/linuz/Documents/YhgPrivat/Inventor 1.0 uppgift/MVC_Inventor/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TVZDX0ludmVudG9yXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/linuz/Documents/YhgPrivat/Inventor 1.0 uppgift/Views/Alster/Index.Cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxzdGVyXEluZGV4LkNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/linuz/Documents/Skola yrkeshögskola/C\#/Databas Utvekling/MVC Training/Views/Home/Index.cshtml]
+[C:/Users/linuz/Documents/YhgPrivat/Inventor 1.0 uppgift/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/linuz/Documents/Skola yrkeshögskola/C\#/Databas Utvekling/MVC Training/Views/Home/Privacy.cshtml]
+[C:/Users/linuz/Documents/YhgPrivat/Inventor 1.0 uppgift/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/linuz/Documents/Skola yrkeshögskola/C\#/Databas Utvekling/MVC Training/Views/Shared/Error.cshtml]
+[C:/Users/linuz/Documents/YhgPrivat/Inventor 1.0 uppgift/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/linuz/Documents/Skola yrkeshögskola/C\#/Databas Utvekling/MVC Training/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/linuz/Documents/YhgPrivat/Inventor 1.0 uppgift/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/linuz/Documents/Skola yrkeshögskola/C\#/Databas Utvekling/MVC Training/Views/_ViewImports.cshtml]
+[C:/Users/linuz/Documents/YhgPrivat/Inventor 1.0 uppgift/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/linuz/Documents/Skola yrkeshögskola/C\#/Databas Utvekling/MVC Training/Views/_ViewStart.cshtml]
+[C:/Users/linuz/Documents/YhgPrivat/Inventor 1.0 uppgift/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/linuz/Documents/Skola yrkeshögskola/C\#/Databas Utvekling/MVC Training/Views/Shared/_Layout.cshtml]
+[C:/Users/linuz/Documents/YhgPrivat/Inventor 1.0 uppgift/MVC_Inventor/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TVZDX0ludmVudG9yXFZpZXdzXFNoYXJlZFxfTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-flqrx8mu1j
+
+[C:/Users/linuz/Documents/YhgPrivat/Inventor 1.0 uppgift/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-lcb876am9y

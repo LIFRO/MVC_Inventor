@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MVC Training")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b630452aa3f337d9d7d602b5af43316939f5cd3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a7cc2dbf7a86bcc77cda275da0903737b7317165")]
 [assembly: System.Reflection.AssemblyProductAttribute("MVC Training")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MVC Training")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

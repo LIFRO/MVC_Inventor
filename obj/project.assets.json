@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\linuz\\Documents\\Skola yrkeshögskola\\C#\\Databas Utvekling\\MVC Training\\MVC Training.csproj",
+      "projectUniqueName": "C:\\Users\\linuz\\Documents\\YhgPrivat\\Inventor 1.0 uppgift\\MVC Training.csproj",
       "projectName": "MVC Training",
-      "projectPath": "C:\\Users\\linuz\\Documents\\Skola yrkeshögskola\\C#\\Databas Utvekling\\MVC Training\\MVC Training.csproj",
+      "projectPath": "C:\\Users\\linuz\\Documents\\YhgPrivat\\Inventor 1.0 uppgift\\MVC Training.csproj",
       "packagesPath": "C:\\Users\\linuz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\linuz\\Documents\\Skola yrkeshögskola\\C#\\Databas Utvekling\\MVC Training\\obj\\",
+      "outputPath": "C:\\Users\\linuz\\Documents\\YhgPrivat\\Inventor 1.0 uppgift\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -75,7 +75,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
