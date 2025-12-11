@@ -4,10 +4,14 @@
 
 <div class="text-center">
     <h1 class="display-4">Hej och välkommen till min sida där jag har mina alstrar</h1>
+
+<div class="button-container">
+<button class="Button" onclick='location.href="@Url.Action("Index","Contacts")"'>
+    Om du vill kontakta mig
+</button>
+<button class="Button" onclick='location.href="@Url.Action("Index","Alster")"'>
+    Mina alstrer
+</button>
 </div>
-<div>
-    <button>
-        <a asp-controller="Alster" asp-action="index"> Mina alstrar </a>
-        <a asp-controller="Contacts" asp-action="index"> Om du vill kontakta mig </a>
-    </button>
+
 </div>
