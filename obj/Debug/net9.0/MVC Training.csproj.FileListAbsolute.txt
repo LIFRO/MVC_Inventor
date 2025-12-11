@@ -95,3 +95,4 @@ C:\Users\linuz\Documents\Skola yrkeshögskola\C#\Databas Utvekling\MVC Training\
 C:\Users\linuz\Documents\Skola yrkeshögskola\C#\Databas Utvekling\MVC Training\obj\Debug\net9.0\MVC Training.genruntimeconfig.cache
 C:\Users\linuz\Documents\Skola yrkeshögskola\C#\Databas Utvekling\MVC Training\obj\Debug\net9.0\ref\MVC Training.dll
 C:\Users\linuz\Documents\Skola yrkeshögskola\C#\Databas Utvekling\MVC Training\bin\Debug\net9.0\Data\alster.json
+C:\Users\linuz\Documents\Skola yrkeshögskola\C#\Databas Utvekling\MVC Training\obj\Debug\net9.0\MVC Training.sourcelink.json
