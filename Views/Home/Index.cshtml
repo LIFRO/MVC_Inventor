@@ -1,17 +1,16 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+@{
+    ViewData["Title"] = "Hem";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Hej och välkommen till min sida där jag har mina alstrar</h1>
+    <h1 class="display-4">Hej och välkommen till min sida med alster</h1>
 
-<div class="button-container">
-<button class="Button" onclick='location.href="@Url.Action("Index","Contacts")"'>
-    Om du vill kontakta mig
-</button>
-<button class="Button" onclick='location.href="@Url.Action("Index","Alster")"'>
-    Mina alstrer
-</button>
-</div>
-
+    <div class="button-container">
+        <button class="Button" onclick='location.href="@Url.Action("Index","Contacts")"'>
+            Om du vill kontakta mig
+        </button>
+        <button class="Button" onclick='location.href="@Url.Action("Index","Alster")"'>
+            Mina alster
+        </button>
+    </div>
 </div>

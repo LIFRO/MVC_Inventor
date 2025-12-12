@@ -1,15 +1,15 @@
 @model IEnumerable<Alster>
 @{
-    ViewData["Title"] = "Tarkovasda Page";
+    ViewData["Title"] = "Alster";
 }
-<body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="" asp-action="Index">Tillbacka</a>
-            </div>
-        </nav>
-    </header>
+
+<header>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Tillbaka</a>
+        </div>
+    </nav>
+</header>
 
 <div class="text-center">
     <h1 class="display-4">Alster</h1>
@@ -24,8 +24,8 @@
             @foreach (var item in Model)
             {
                 <div class="centered_image">
-                    <div>@item.Name</div>
-                    <div>@item.description</div>
+                    <div class="fw-semibold">@item.Name</div>
+                    <div>@item.Description</div>
                     <div><img src="@Url.Content("~/" + item.Image)" alt="@item.Name" class="Alster_Size_Img"></div>
                 </div>
             }
@@ -33,4 +33,3 @@
 
     }
 </div>
-</body>
