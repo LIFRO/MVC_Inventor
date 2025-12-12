@@ -1,21 +1,21 @@
 # MVC Training
 
-En enkel ASP.NET Core MVC-app (target .NET 9) som visar en lista med snickerialster och en kontaktsida på svenska.
+En enkel ASP.NET Core MVC-app (target .NET 9) som visar uppfinnarens kontaktuppgifter och listar alster. Uppbyggd enligt Model-View-Controller.
 
-## Förutsättningar
-- .NET SDK 9.0
-
-## Kom igång
-1. Klona projektet.
-2. Installera beroenden: `dotnet restore`.
-3. Starta: `dotnet run` (från projektroten). Applikationen hostas på den URL som skrivs ut i konsolen.
+## Installera och starta
+- Krav: .NET SDK 9.0 (eller nyare runtime om du kör publicerad exe).
+- Lokal utveckling: `dotnet restore` och sedan `dotnet run` från projektroten.
+- Färdigbyggd exe finns redan i repot under `bin\Release\net9.0\win-x64\publish\`. Kopiera hela den katalogen till den plats där du vill köra programmet (alla filer måste följa med) och starta `MVC Inventor.exe` i den kopierade publish-mappen.
+- (Valfritt) Bygg om själv: `dotnet publish -c Release -r win-x64 --self-contained true`.
 
 ## Datastruktur för alster
-- Källdata ligger i `Data/Alster.json` och kopieras till utdata vid build. Varje post har fälten `id`, `name`, `description`, `image`.
-- Bilderna finns i `wwwroot/Images` och refereras via `image`-fältet, t.ex. `Images/1.webp`.
-- `JsonAlsterRepository` läser in filen vid uppstart och exponerar data via `IAlsterRepository` (se `Program.cs`). Genom att isolera läsningen bakom ett interface kan källan bytas till t.ex. en databas utan att ändra vyerna.
-- Lägg till/ändra alster genom att uppdatera `Data/Alster.json` och lägga motsvarande bild i `wwwroot/Images`. Starta om appen för att ladda nya poster.
+- Källdata: `Data/Alster.json` kopieras till utdata vid build/publish.
+- Struktur: varje post har fälten `id`, `name`, `description`, `image`.
+- Tillhörande bilder ligger i `wwwroot/Images` och refereras via `image`-fältet (t.ex. `Images/1.webp`).
+- Motivering: JSON i en egen katalog är enkel att uppdatera utan kodändring, och kan senare ersättas av databas genom att behålla interfacet `IAlsterRepository`.
 
-## Vidareutveckling
-- Behåll `IAlsterRepository` som kontrakt och implementera en ny repository-klass om du flyttar data till databas/filövervakning.
-- Lägg till validering och formulär om alster ska skapas/redigeras från UI:t. Startpunkter finns i `Controllers/AlsterController.cs` och `Views/Alster/Index.cshtml`.
+## Reflektion kring val
+- MVC-struktur för tydlig separation av ansvar och enkel vidareutveckling.
+- Repositorymönster: `IAlsterRepository` + `JsonAlsterRepository` gör datakällan utbytbar (kan bytas till DB senare utan att röra controllers/views).
+- Statisk data + bilder i `Data/` och `wwwroot/Images` för att hålla innehåll redigerbart och skilt från logik.
+- Publicering som self-contained exe med hela publish-katalogen för att kunna köra på maskiner utan .NET installerat och samtidigt få med statiska webbtillgångar.

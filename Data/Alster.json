@@ -2,61 +2,61 @@
   {
     "id": 1,
     "name": "Skärbräda med ränna",
-    "image": "Images/1.webp",
+    "image": "images/1.webp",
     "description": "Rektangulär skärbräda med urfräst ränna runt kanten och grepphål på ena sidan."
   },
   {
     "id": 2,
     "name": "Flytande hörnhylla",
-    "image": "Images/2.webp",
+    "image": "images/2.webp",
     "description": "Vinkelhylla som monteras i ett hörn med dold konsol och rena geringssnitt."
   },
   {
     "id": 3,
     "name": "Rustikt soffbord",
-    "image": "Images/3.webp",
+    "image": "images/3.webp",
     "description": "Lågt soffbord med massiv toppskiva och enkla avsmalnande ben."
   },
   {
     "id": 4,
     "name": "Brödlåda med rullucka",
-    "image": "Images/4.webp",
+    "image": "images/4.webp",
     "description": "Bänklåda för bröd med tambour-rullucka och rundad front."
   },
   {
     "id": 5,
     "name": "Vägghängt vinställ",
-    "image": "Images/5.webp",
+    "image": "images/5.webp",
     "description": "Vertikalt vinställ som håller flaskor horisontellt i förskjutna spår och har glasupphängning."
   },
   {
     "id": 6,
     "name": "Tavelramset",
-    "image": "Images/6.webp",
+    "image": "images/6.webp",
     "description": "Set med ramar i olika storlekar med smala profiler, passepartout och nyckelhålsfästen."
   },
   {
     "id": 7,
     "name": "Dragleksak tåg",
-    "image": "Images/7.webp",
+    "image": "images/7.webp",
     "description": "Enkelt lektåg med runda hjul, kopplingar och mjuka fasade kanter."
   },
   {
     "id": 8,
     "name": "Utskurna slevpar",
-    "image": "Images/8.webp",
+    "image": "images/8.webp",
     "description": "Matchande serveringsslevar med handskarvade skålar och tunna greppvänliga handtag."
   },
   {
     "id": 9,
     "name": "Växtställ i tre nivåer",
-    "image": "Images/9.webp",
+    "image": "images/9.webp",
     "description": "Ställ med tre plattformar i olika höjd med korsstag mellan benen."
   },
   {
     "id": 10,
     "name": "Fågelholk med sittpinne",
-    "image": "Images/10.webp",
+    "image": "images/10.webp",
     "description": "Liten holk med sadeltak, runt ingångshål och kort sittpinne."
   }
 ]

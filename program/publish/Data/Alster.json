@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Skärbräda med ränna",
+    "image": "images/1.webp",
+    "description": "Rektangulär skärbräda med urfräst ränna runt kanten och grepphål på ena sidan."
+  },
+  {
+    "id": 2,
+    "name": "Flytande hörnhylla",
+    "image": "images/2.webp",
+    "description": "Vinkelhylla som monteras i ett hörn med dold konsol och rena geringssnitt."
+  },
+  {
+    "id": 3,
+    "name": "Rustikt soffbord",
+    "image": "images/3.webp",
+    "description": "Lågt soffbord med massiv toppskiva och enkla avsmalnande ben."
+  },
+  {
+    "id": 4,
+    "name": "Brödlåda med rullucka",
+    "image": "images/4.webp",
+    "description": "Bänklåda för bröd med tambour-rullucka och rundad front."
+  },
+  {
+    "id": 5,
+    "name": "Vägghängt vinställ",
+    "image": "images/5.webp",
+    "description": "Vertikalt vinställ som håller flaskor horisontellt i förskjutna spår och har glasupphängning."
+  },
+  {
+    "id": 6,
+    "name": "Tavelramset",
+    "image": "images/6.webp",
+    "description": "Set med ramar i olika storlekar med smala profiler, passepartout och nyckelhålsfästen."
+  },
+  {
+    "id": 7,
+    "name": "Dragleksak tåg",
+    "image": "images/7.webp",
+    "description": "Enkelt lektåg med runda hjul, kopplingar och mjuka fasade kanter."
+  },
+  {
+    "id": 8,
+    "name": "Utskurna slevpar",
+    "image": "images/8.webp",
+    "description": "Matchande serveringsslevar med handskarvade skålar och tunna greppvänliga handtag."
+  },
+  {
+    "id": 9,
+    "name": "Växtställ i tre nivåer",
+    "image": "images/9.webp",
+    "description": "Ställ med tre plattformar i olika höjd med korsstag mellan benen."
+  },
+  {
+    "id": 10,
+    "name": "Fågelholk med sittpinne",
+    "image": "images/10.webp",
+    "description": "Liten holk med sadeltak, runt ingångshål och kort sittpinne."
+  }
+]
