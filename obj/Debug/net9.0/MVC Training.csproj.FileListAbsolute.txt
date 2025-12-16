@@ -121,7 +121,6 @@ C:\Users\linuz\Documents\YhgPrivat\Inventor 1.0 uppgift\obj\Debug\net9.0\rjsmcsh
 C:\Users\linuz\Documents\YhgPrivat\Inventor 1.0 uppgift\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\linuz\Documents\YhgPrivat\Inventor 1.0 uppgift\obj\Debug\net9.0\scopedcss\bundle\MVC Training.styles.css
 C:\Users\linuz\Documents\YhgPrivat\Inventor 1.0 uppgift\obj\Debug\net9.0\scopedcss\projectbundle\MVC Training.bundle.scp.css
-C:\Users\linuz\Documents\YhgPrivat\Inventor 1.0 uppgift\obj\Debug\net9.0\compressed\1ixb4xby9u-blgy58t6by.gz
 C:\Users\linuz\Documents\YhgPrivat\Inventor 1.0 uppgift\obj\Debug\net9.0\compressed\fdqahlla78-61n19gt1b8.gz
 C:\Users\linuz\Documents\YhgPrivat\Inventor 1.0 uppgift\obj\Debug\net9.0\compressed\zfpqu8c94e-xtxxf3hu2r.gz
 C:\Users\linuz\Documents\YhgPrivat\Inventor 1.0 uppgift\obj\Debug\net9.0\compressed\ehuci5fze0-t1cqhe9u97.gz
@@ -194,3 +193,9 @@ C:\Users\linuz\Documents\YhgPrivat\Inventor 1.0 uppgift\obj\Debug\net9.0\refint\
 C:\Users\linuz\Documents\YhgPrivat\Inventor 1.0 uppgift\obj\Debug\net9.0\MVC Training.pdb
 C:\Users\linuz\Documents\YhgPrivat\Inventor 1.0 uppgift\obj\Debug\net9.0\MVC Training.genruntimeconfig.cache
 C:\Users\linuz\Documents\YhgPrivat\Inventor 1.0 uppgift\obj\Debug\net9.0\ref\MVC Training.dll
+C:\Users\linuz\Documents\YhgPrivat\Inventor 1.0 uppgift\bin\Debug\net9.0\program\publish\web.config
+C:\Users\linuz\Documents\YhgPrivat\Inventor 1.0 uppgift\bin\Debug\net9.0\program\publish\appsettings.Development.json
+C:\Users\linuz\Documents\YhgPrivat\Inventor 1.0 uppgift\bin\Debug\net9.0\program\publish\appsettings.json
+C:\Users\linuz\Documents\YhgPrivat\Inventor 1.0 uppgift\bin\Debug\net9.0\program\publish\Data\Alster.json
+C:\Users\linuz\Documents\YhgPrivat\Inventor 1.0 uppgift\bin\Debug\net9.0\program\publish\MVC Training.staticwebassets.endpoints.json
+C:\Users\linuz\Documents\YhgPrivat\Inventor 1.0 uppgift\obj\Debug\net9.0\compressed\1ixb4xby9u-u0ip9ccqbx.gz
