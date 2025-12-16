@@ -1,7 +1,15 @@
 @model IEnumerable<Alster>
 @{
-    ViewData["Title"] = "Tarkovasda Page";
+    ViewData["Title"] = "Alster";
 }
+
+<header>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Tillbaka</a>
+        </div>
+    </nav>
+</header>
 
 <div class="text-center">
     <h1 class="display-4">Alster</h1>
@@ -12,15 +20,16 @@
     }
     else
     {
-        <ol>
+        <div class="alster-grid">
             @foreach (var item in Model)
             {
-                <li>
-                    <div>@item.Name</div>
-                    <div>@item.description</div>
-                    <div>@item.Image</div>
-                </li>
+                <div class="centered_image">
+                    <div class="fw-semibold">@item.Name</div>
+                    <div>@item.Description</div>
+                    <div><img src="@Url.Content("~/" + item.Image)" alt="@item.Name" class="Alster_Size_Img"></div>
+                </div>
             }
-        </ol>
+        </div>
+
     }
 </div>

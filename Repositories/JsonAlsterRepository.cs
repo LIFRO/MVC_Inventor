@@ -12,7 +12,7 @@ public class JsonAlsterRepository : IAlsterRepository
     public JsonAlsterRepository(IWebHostEnvironment env, ILogger<JsonAlsterRepository> logger)
     {
         _logger = logger;
-        _filePath = Path.Combine(env.ContentRootPath, "Data", "alster.json");
+        _filePath = Path.Combine(env.ContentRootPath, "Data", "Alster.json");
         LoadFromFile();
     }
 
@@ -34,14 +34,11 @@ public class JsonAlsterRepository : IAlsterRepository
         }
         catch (Exception ex)
         {
-            _logger.LogError(ex, "Failed to load products from {path}", _filePath);
+            _logger.LogError(ex, "Failed to load alster from {path}", _filePath);
             _cache = new List<Alster>();
         }
     }
 
     public Task<IEnumerable<Alster>> GetAllAsync(CancellationToken ct = default) =>
         Task.FromResult<IEnumerable<Alster>>(_cache);
-
-    public Task<Alster?> GetByIdAsync(int id, CancellationToken ct = default) =>
-        Task.FromResult(_cache.FirstOrDefault(p => p.Id == id));
 }
