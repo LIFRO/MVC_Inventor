@@ -1,12 +1,13 @@
-@model IEnumerable<Alster>
-@{
-    ViewData["Title"] = "Alster";
-}
+﻿@model IEnumerable<Alster>
 
 <header>
     <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
         <div class="container-fluid">
             <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Tillbaka</a>
+            <a class="navbar-brand" asp-area="" asp-controller="Alster" asp-action="Category" asp-route-categoryId="1">Träd kategori 1</a>
+            <a class="navbar-brand" asp-area="" asp-controller="Alster" asp-action="Category" asp-route-categoryId="2">Träd kategori 2</a>
+            <a class="navbar-brand" asp-area="" asp-controller="Alster" asp-action="Category" asp-route-categoryId="3">metall kategori 1</a>
+            <a class="navbar-brand" asp-area="" asp-controller="Alster" asp-action="Category" asp-route-categoryId="4">metall kategori 2</a>
         </div>
     </nav>
 </header>
@@ -30,6 +31,5 @@
                 </div>
             }
         </div>
-
     }
 </div>
