@@ -6,4 +6,5 @@ public class Alster
     public string Name { get; set; } = "";
     public string Description { get; set; } = "";
     public string Image { get; set; } = "";
+    public string Categor_Id {get; set; } = "";
 }
