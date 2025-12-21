@@ -1,3 +1,4 @@
+using System.Linq;
 using System.Text.Json;
 using MVC_Training.Models;
 
@@ -41,4 +42,10 @@ public class JsonAlsterRepository : IAlsterRepository
 
     public Task<IEnumerable<Alster>> GetAllAsync(CancellationToken ct = default) =>
         Task.FromResult<IEnumerable<Alster>>(_cache);
+
+    public Task<Alster?> GetByIdAsync(int id, CancellationToken ct = default) =>
+        Task.FromResult(_cache.FirstOrDefault(a => a.Id == id));
+
+    public Task<IEnumerable<Alster>> GetByCategoryAsync(int categoryId, CancellationToken ct = default) =>
+        Task.FromResult(_cache.Where(a => a.CategoryId == categoryId).AsEnumerable());
 }

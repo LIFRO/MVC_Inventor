@@ -1,4 +1,7 @@
+using Microsoft.EntityFrameworkCore;
+using MVC_Training.Models;
 using MVC_Training.Repositories;
+using System.Text.Json;
 
 internal class Program
 {
@@ -6,13 +9,30 @@ internal class Program
     {
         var builder = WebApplication.CreateBuilder(args);
 
-        // Add services to the container.
+        // Add services to the container
         builder.Services.AddControllersWithViews();
-        builder.Services.AddSingleton<IAlsterRepository, JsonAlsterRepository>();
+        builder.Services.AddScoped<IAlsterRepository, JsonAlsterRepository>();
+        builder.Services.AddDbContext<AlsterDbContext>(options => options.UseInMemoryDatabase("AlsterDb"));
 
         var app = builder.Build();
 
-        // Configure the HTTP request pipeline.
+        // Seed in-memory database from JSON once
+        using (var scope = app.Services.CreateScope())
+        {
+            var db = scope.ServiceProvider.GetRequiredService<AlsterDbContext>();
+            var env = scope.ServiceProvider.GetRequiredService<IWebHostEnvironment>();
+
+            if (!db.Alsters.Any())
+            {
+                var file = Path.Combine(env.ContentRootPath, "Data", "Alster.json");
+                var json = File.ReadAllText(file);
+                var alsters = JsonSerializer.Deserialize<List<Alster>>(json) ?? new();
+                db.Alsters.AddRange(alsters);
+                db.SaveChanges();
+            }
+        }
+
+        // Configure the HTTP request pipeline
         if (!app.Environment.IsDevelopment())
         {
             app.UseExceptionHandler("/Home/Error");

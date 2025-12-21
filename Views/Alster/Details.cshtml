@@ -1,0 +1,27 @@
+@model MVC_Training.Models.Alster
+@{
+    ViewData["Title"] = $"Alster {Model?.Name}";
+}
+
+<header>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Start</a>
+            <a class="nav-link" asp-area="" asp-controller="Alster" asp-action="Index">Alla alster</a>
+        </div>
+    </nav>
+    <h1 class="display-4 text-center">@Model.Name</h1>
+</header>
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="@Url.Content("~/" + Model.Image)" alt="@Model.Name" class="img-fluid" />
+        </div>
+        <div class="col-md-6">
+            <h2 class="fw-semibold">@Model.Name</h2>
+            <p>@Model.Description</p>
+            <p class="text-muted">Id: @Model.Id</p>
+        </div>
+    </div>
+</div>
